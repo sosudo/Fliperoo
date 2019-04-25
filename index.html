@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<form action="upload.php" method="post" enctype="multipart/form-data">
-    Select image to upload:
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="submit" value="Upload Image" name="submit">
-</form>
-
-</body>
+    <head>
+        <title>Fliperoo</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    <body>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        Select image to upload:
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Upload Image" name="submit">
+    </form>
+    <img src="fileToUpload" alt="Error - File cannot be shown">
+    </body>
 </html>
